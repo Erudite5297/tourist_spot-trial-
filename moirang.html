@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moirang - Tourist Spot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Moirang</h1>
+        <a href="index.html">← Back to Home</a>
+    </header>
+
+    <main>
+        <section id="description">
+            <h2>About Moirang</h2>
+            <p>Moirang is known for its rich cultural heritage and history. It is famous for the INA Museum and the Loktak Lake, the largest freshwater lake in India.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Photo Gallery</h2>
+            <div class="gallery">
+                <img src="1_Loktak_Lake__Moirang.jpg" alt="Moirang Spot 1">
+                <img src="moirang2.jpeg" alt="Moirang Spot 2">
+                <!-- More images -->
+            </div>
+        </section>
+
+        <section id="user-uploads">
+            <h2>Share Your Experience</h2>
+            <form id="upload-form">
+                <label for="photo">Upload a photo:</label>
+                <input type="file" id="photo" name="photo"><br><br>
+
+                <label for="comment">Your comment:</label>
+                <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Write about your experience at Moirang"></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 [Your Name] - Discover [Your State]</p>
+    </footer>
+
+    <script src="app.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
